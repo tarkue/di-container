@@ -1,0 +1,19 @@
+{
+  "name": "di-injector",
+  "version": "1.0.0",
+  "description": "A simple Injector for Artsofte",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && node ./dist/test.js"
+  },
+  "keywords": [
+    "DI",
+    "dependency-injection"
+  ],
+  "author": "Tarque",
+  "license": "ISC",
+  "dependencies": {
+    "reflect-metadata": "^0.2.2",
+    "typescript": "^5.6.3"
+  }
+}

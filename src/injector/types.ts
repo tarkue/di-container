@@ -1,0 +1,1 @@
+export type InjectableObject<T> = new (...args: Object[]) => T;
